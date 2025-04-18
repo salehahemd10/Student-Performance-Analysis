@@ -1,7 +1,11 @@
 📊 Students Performance Analysis
+
+
 This Jupyter Notebook analyzes student performance data using the StudentsPerformance.csv dataset. The dataset includes demographic information, parental education levels, lunch programs, test preparation status, and students' scores in math, reading, and writing.
 
-📁 Dataset Description
+📁 Dataset Description 
+
+
 The dataset contains the following columns:
 
 gender: Student's gender (male/female)
@@ -21,7 +25,9 @@ reading score: Reading test score (0–100)
 writing score: Writing test score (0–100)
 
 🔍 Key Analyses Performed
+
 📌 Data Exploration:
+
 Basic dataset info and descriptive statistics
 
 Frequency counts for categorical features
@@ -29,6 +35,7 @@ Frequency counts for categorical features
 Cross-tabulations to analyze relationships
 
 📈 Performance Analysis:
+
 Comparison of average scores by gender
 
 Score distributions across subjects
@@ -36,11 +43,15 @@ Score distributions across subjects
 Group analysis by race/ethnicity and parental education
 
 📊 Visualizations:
+
+
 Bar charts illustrating relationships between categorical variables
 
 Comparative performance analysis across different student groups
 
 🔑 Key Findings
+
+
 📚 Female students generally outperform male students in reading and writing
 
 🍱 Students with standard lunch perform better than those with free/reduced lunch
@@ -49,16 +60,6 @@ Comparative performance analysis across different student groups
 
 📝 Students who completed test preparation tend to score higher in all subjects
 
-⚙️ How to Use
-Make sure you have Python and Jupyter Notebook installed
-
-Install required packages using pip:
-
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib
-Open the notebook and run the cells sequentially to reproduce the analysis
 
 🧩 Dependencies
 Python 3.x
@@ -70,6 +71,6 @@ numpy
 matplotlib
 
 👤 Author
-[Your Name]
+[Saleh Ahmed]
 
 
