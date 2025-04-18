@@ -1,53 +1,75 @@
-📊 Student Performance Analysis Project
-GitHub Repository: said-hahemd10/Student-Performance-Analysis
+📊 Students Performance Analysis
+This Jupyter Notebook analyzes student performance data using the StudentsPerformance.csv dataset. The dataset includes demographic information, parental education levels, lunch programs, test preparation status, and students' scores in math, reading, and writing.
 
-🔍 Overview
-This project analyzes student performance data using Python (Pandas, NumPy, Matplotlib) in a Jupyter Notebook. It explores how factors like gender, parental education, lunch type, and test preparation affect math, reading, and writing scores.
+📁 Dataset Description
+The dataset contains the following columns:
 
-📂 Repository Structure
-Student-Performance-Analysis/  
-├── StudentsPerformance.csv        # Dataset (1000 student records)  
-├── student-performance.ipynb     # Jupyter Notebook (Full Analysis)  
-├── student-performance-featured.webg  # Visualizations  
-└── README.md                     # Project Documentation  
-📊 Dataset Features
-Column	Description
-gender	Male / Female
-race/ethnicity	Group A-E classification
-parental level of education	Highest education of parents
-lunch	Standard / Free or Reduced
-test preparation course	None / Completed
-math score	Score (0-100)
-reading score	Score (0-100)
-writing score	Score (0-100)
-🔎 Key Findings
-📌 Gender Differences
-👩 Female students perform better in reading & writing.
+gender: Student's gender (male/female)
 
-👨 Male students slightly outperform in math.
+race/ethnicity: Student's racial/ethnic group (Group A–E)
 
-📌 Parental Education Impact
-Students with higher-educated parents score better.
+parental level of education: Parent's highest education level
 
-Best performance: Parents with master's degrees.
+lunch: Type of lunch program (standard / free or reduced)
 
-📌 Other Factors
-Standard lunch 🍎 → Higher scores than free/reduced.
+test preparation course: Whether the student completed a test preparation course (none / completed)
 
-Test prep 📚 → Significant score improvement.
+math score: Math test score (0–100)
 
-🚀 How to Run
-Clone the repo:
+reading score: Reading test score (0–100)
+
+writing score: Writing test score (0–100)
+
+🔍 Key Analyses Performed
+📌 Data Exploration:
+Basic dataset info and descriptive statistics
+
+Frequency counts for categorical features
+
+Cross-tabulations to analyze relationships
+
+📈 Performance Analysis:
+Comparison of average scores by gender
+
+Score distributions across subjects
+
+Group analysis by race/ethnicity and parental education
+
+📊 Visualizations:
+Bar charts illustrating relationships between categorical variables
+
+Comparative performance analysis across different student groups
+
+🔑 Key Findings
+📚 Female students generally outperform male students in reading and writing
+
+🍱 Students with standard lunch perform better than those with free/reduced lunch
+
+🎓 Higher parental education levels are linked to better academic performance
+
+📝 Students who completed test preparation tend to score higher in all subjects
+
+⚙️ How to Use
+Make sure you have Python and Jupyter Notebook installed
+
+Install required packages using pip:
 
 bash
-git clone https://github.com/said-hahemd10/Student-Performance-Analysis.git
-Install dependencies:
+Copy
+Edit
+pip install pandas numpy matplotlib
+Open the notebook and run the cells sequentially to reproduce the analysis
 
-bash
-pip install pandas numpy matplotlib jupyter
-Open Jupyter Notebook:
+🧩 Dependencies
+Python 3.x
 
-bash
-jupyter notebook student-performance.ipynb
-📜 License
-MIT License - Free to use and modify.
+pandas
+
+numpy
+
+matplotlib
+
+👤 Author
+[Your Name]
+
+
