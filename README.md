@@ -70,4 +70,4 @@ numpy
 matplotlib
 
 Author
-[Saleh Ahmed Saleh]
+[Your Name]
