@@ -1,9 +1,9 @@
-📊 Students Performance Analysis
+ Students Performance Analysis
 
 
 This Jupyter Notebook analyzes student performance data using the StudentsPerformance.csv dataset. The dataset includes demographic information, parental education levels, lunch programs, test preparation status, and students' scores in math, reading, and writing.
 
-📁 Dataset Description 
+ Dataset Description 
 
 
 The dataset contains the following columns:
@@ -49,19 +49,19 @@ Bar charts illustrating relationships between categorical variables
 
 Comparative performance analysis across different student groups
 
-🔑 Key Findings
+ Key Findings
 
 
-📚 Female students generally outperform male students in reading and writing
+ Female students generally outperform male students in reading and writing
 
-🍱 Students with standard lunch perform better than those with free/reduced lunch
+ Students with standard lunch perform better than those with free/reduced lunch
 
-🎓 Higher parental education levels are linked to better academic performance
+ Higher parental education levels are linked to better academic performance
 
-📝 Students who completed test preparation tend to score higher in all subjects
+ Students who completed test preparation tend to score higher in all subjects
 
 
-🧩 Dependencies
+ Dependencies
 Python 3.x
 
 pandas
@@ -70,7 +70,7 @@ numpy
 
 matplotlib
 
-👤 Author
+ Author
 [Saleh Ahmed]
 
 
